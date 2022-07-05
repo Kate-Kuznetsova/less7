@@ -1,0 +1,221 @@
+*{
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;   
+}
+
+body{
+  background: #E5E5E5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main{
+  Width: 570px;
+  Height: 590px;
+  margin-left: 36px;
+  background: #FFFFFF;
+}
+
+.form{
+  Width: 570px;
+  Height: 590px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 34px;
+  padding-right: 34px;
+  padding-top: 35px;
+  padding-bottom: 16px;
+}
+
+
+input{
+  border: 1px solid #E4E4E4;
+  border-radius: 6px;
+}
+
+label{
+  display:block;
+}
+
+.select{
+  -webkit-appearance: none;  
+  -webkit-border-radius: 0px;
+  Width: 245px;
+  Height: 38px;
+  border: 1px solid #E4E4E4;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #545454;
+  font-size: 15px;
+  background-image: url(../image/Arrow.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-x: 96%;
+}
+
+.name, .city {
+  background: #FFFFFF;
+  border: 1px solid #E4E4E4;
+  border-radius: 6px;
+  Width: 245px;
+  Height: 38px;
+  color: #545454;
+  font-size: 15px;
+}
+
+.name{
+  margin-top: 7px;
+}
+
+.email{
+  background: #FFFFFF;
+  border: 1px solid #E4E4E4;
+  border-radius: 6px;
+  Width: 500px;
+  Height: 38px;
+  color: #545454;
+  font-size: 15px; 
+}
+
+#signup{
+  background: #007BFF;
+  border: 1px solid #E4E4E4;
+  border-radius: 6px;
+  color: white;
+  padding: 10px 10px 10px 10px;  
+  width: 505px;
+  font-size: 15px;
+}
+
+.introduce{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#shareemail{
+  color: #969696;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: -0.1px;
+  margin-top: 7px;
+}
+
+.label{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 21px;
+  margin-bottom: 20px;
+}
+
+.male{
+  display: flex;
+}
+
+.female{
+  display: flex;
+}
+
+.male input{
+  opacity:0;
+
+}
+
+.female input{
+  opacity:0;
+}
+
+.labelmale{
+  box-sizing: border-box;
+  Height: 20px;
+  background: #FFFFFF;
+  color: #545454;
+  letter-spacing: -0.2px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+
+.labelmale:focus{
+  background: #FFFFFF;
+  border: 6px solid #007BFF;
+}
+
+.labelmale:checked{
+  background: #FFFFFF;
+  border: 6px solid #007BFF;
+}
+
+:is(.name, .email, .city, .select):focus {
+  border: 1px solid #007BFF;
+  outline: none;
+}
+
+.checkbox{
+  display: inline-block;
+  border: 1px solid;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  margin-right: 7px;
+}
+
+#terms{
+  text-align: center;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #969696;
+  letter-spacing: -0.1px;
+}
+
+#login{
+  text-align: center;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+hr{
+  background: #E4E4E4;
+  width: 500px;
+  height: 1px;
+  margin: 0;
+}
+
+#userpic{
+  Width: 80px;
+  Height: 80px;
+}
+
+.checkbox:hover{
+  border-width: 6px;
+  border-color: #007BFF;
+}
+
+.radio{
+  display: none;
+}
+
+.place{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.select, .city{
+  margin-top: 7px;
+}
+
+.label_male{
+  display: flex;
+  align-items: center;
+}
+
+.name .email .select .city:hover{
+  border: 1px solid #007BFF;
+}
