@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/index.css">
+    <title>web-forms</title>
+</head>
+<body>
+    <main>
+    <form class="form" autocomplete="off">
+
+            <h1>Create an Account</h1>
+
+            <div class="introduce">
+                <label for="First Name">First Name
+                    <input type="text" name="First Name" class="name">
+                </label>
+           
+                <label for="Last Name">Last Name
+                    <input type="text" name="Last Name" class="name">
+                </label>
+            </div>
+
+            <label for="email">E-mail</label>
+            <input type="email" name="email" class="email">
+
+            <p id="shareemail">We'll never share your email with anyone else.</p>
+
+            <div class="label">
+                <div class="male">
+                    <label class="label_male" for="Male" class="labelmale">
+                        <input class="radio" type="radio" name="Male">
+                        <span class="checkbox"></span>Male
+                    </label>
+                </div>
+
+                <div class="female">
+                    <label class="label_male" for="Female" class="labelmale">
+                        <input class="radio" type="radio" name="Female">
+                        <span class="checkbox"></span>Female
+                    </label>
+                </div>
+            </div>
+
+            <div class="place">
+                <div class="livein">
+                    <label for="Country">Country</label>
+                    <select name="Country" class="select">
+                        <option value="Ukraine">Ukraine</option>
+                        <option value="Poland">Poland</option>
+                        <option value="United Kingdom">United Kingdom</option>
+                        <option value="Finland">Finland</option>
+                        <option value="Norway">Norway</option>
+                    </select>
+                </div>
+
+                <div class="livein">
+                    <label for="City">City</label>
+                    <input type="text" name="City" class="city">
+                </div>
+            </div>
+
+            <button type="submit" id="signup">Sign Up</button>
+
+            <p id="terms">By clicking the 'Sign Up' button, you confirm that you accept our <br>
+                <a href="URL">Terms of Use</a> and <a href="URL">Privacy Policy</a></p>
+            <hr>
+            <p id="login">Have an account? <a href="URL"><strong>Log In</strong></a></p>
+    </form>
+</main>
+</body>
+</html>
